@@ -522,9 +522,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
   for (var i = 0; i < 200; i++) {
     var elem = document.createElement('img');
+    var colsAmount = (i % cols) * s;
     elem.className = 'mover';
     elem.src = "images/pizza.png";
-    elem.style.left = ((i % cols) * s) + 100 * (Math.sin(i % 5)) + 'px';
+    elem.basicLeft = colsAmount;
+    elem.style.left = colsAmount + 100 * (Math.sin(i % 5)) + 'px';
     elem.style.top = (Math.floor(i / cols) * s) + 'px';
     document.querySelector("#movingPizzas1").appendChild(elem);
   }
