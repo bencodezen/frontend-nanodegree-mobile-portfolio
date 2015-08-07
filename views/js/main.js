@@ -519,8 +519,10 @@ document.addEventListener('DOMContentLoaded', function() {
   var cols = 8;
   var s = 256;
   var items = document.getElementsByClassName('mover');
+  // Calculate the number of pizzas needed
+  var pizzasNeeded = (document.body.clientWidth / 100) + (document.body.clientHeight / 74);
 
-  for (var i = 0; i < 200; i++) {
+  for (var i = 0; i < pizzasNeeded; i++) {
     var elem = document.createElement('img');
     var colsAmount = (i % cols) * s;
     elem.className = 'mover';
