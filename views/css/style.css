@@ -53,5 +53,6 @@ form {
 .mover {
   height: 100px;
   width: 73.333px;
+  transform: translateZ(0);
   will-change: transform;
 }
