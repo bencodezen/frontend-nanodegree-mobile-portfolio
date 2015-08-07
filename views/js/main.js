@@ -14,6 +14,9 @@ http://www.html5rocks.com/en/tutorials/webperformance/usertiming/
 Creator:
 Cameron Pittman, Udacity Course Developer
 cameron *at* udacity *dot* com
+
+Customized by:
+Benjamin Hong, UX Developer
 */
 
 // As you may have realized, this website randomly generates pizzas.

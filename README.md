@@ -4,6 +4,12 @@ This is the fourth project on the Udacity - Front End Development Nanodegree pro
 
 ## Getting Setup
 
+### Live Site
+
+- [http://bencodezen.github.io/website-optimization/](http://bencodezen.github.io/website-optimization/)
+
+### Local Environment
+
 1. Clone the repository in your desired directory
 2. To inspect the site on your phone and/or to analyze it with PageInsights, you can run a local server
 
